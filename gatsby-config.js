@@ -1,4 +1,5 @@
 // gatsby-config.js
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const path = require("path");
 // Get paths of Gatsby's required rules, which as of writing is located at:
 // https://github.com/gatsbyjs/gatsby/tree/fbfe3f63dec23d279a27b54b4057dd611dce74bb/packages/
@@ -21,6 +22,7 @@ module.exports = {
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     "gatsby-plugin-postcss",
+    "gatsby-plugin-root-import",
     {
       resolve: `gatsby-plugin-typescript`,
       options: {
