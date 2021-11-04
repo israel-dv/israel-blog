@@ -5,7 +5,7 @@ import "../styles/index.css";
 const IndexPage: React.FC = () => {
   return (
     <main>
-      <div className="container-building">Hello</div>
+      <div className="container-building bg-red-500">Hello</div>
     </main>
   );
 };
