@@ -1,4 +1,5 @@
 import React from "react";
+import Header from "../Header";
 
 interface LayoutProps {
   pageTitle: string;
@@ -10,8 +11,9 @@ const Layout: React.FC<LayoutProps> = ({
   children,
 }: LayoutProps) => {
   return (
-    <div className="w-screen h-screen px-80 bg-blue-1000">
+    <div className="w-screen h-screen bg-blue-950">
       <title>{pageTitle}</title>
+      <Header />
       <main>{children}</main>
     </div>
   );

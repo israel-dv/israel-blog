@@ -18,6 +18,8 @@ module.exports = {
     title: "Israel Blog",
   },
   plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
     "gatsby-plugin-postcss",
     {
       resolve: `gatsby-plugin-typescript`,
