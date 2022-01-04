@@ -5,7 +5,7 @@ const HEADER_TITLE = "IMDev_";
 
 const Header: React.FC = () => {
   return (
-    <div className="w-full h-20 bg-blue-1000 px-8 flex justify-between items-center shadow-lg">
+    <div className="w-full h-20 bg-blue-1000 px-8 flex justify-between items-center shadow-lg sticky">
       <div className="flex h-full items-center">
         <StaticImage
           src="../../images/icons/programming.png"
